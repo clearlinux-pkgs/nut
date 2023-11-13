@@ -1,0 +1,9 @@
+2.8.1
+asciidoc
+aspell-dev
+cppcheck
+libxml2-dev
+libxslt-bin
+openssl-dev
+systemd-dev
+valgrind
