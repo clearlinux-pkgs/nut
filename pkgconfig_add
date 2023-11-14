@@ -1,2 +1,10 @@
 # This file contains additional pkgconfig build requirements that did
 # not get picked up automatically. One name per line, no whitespace.
+avahi-core
+gdlib
+libfreeipmi
+libgpiod
+libmodbus
+libusb-1.0
+neon
+netsnmp

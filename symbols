@@ -351,7 +351,12 @@ libnutscan.so.2:nutscan_get_serial_ports_list
 libnutscan.so.2:nutscan_init
 libnutscan.so.2:nutscan_ip_iter_inc
 libnutscan.so.2:nutscan_ip_iter_init
+libnutscan.so.2:nutscan_load_avahi_library
+libnutscan.so.2:nutscan_load_ipmi_library
+libnutscan.so.2:nutscan_load_neon_library
+libnutscan.so.2:nutscan_load_snmp_library
 libnutscan.so.2:nutscan_load_upsclient_library
+libnutscan.so.2:nutscan_load_usb_library
 libnutscan.so.2:nutscan_new_device
 libnutscan.so.2:nutscan_rewind_device
 libnutscan.so.2:nutscan_scan_avahi

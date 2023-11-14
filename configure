@@ -1,0 +1,16 @@
+--datadir=/usr/share/nut
+--includedir=/usr/include/nut
+--sysconfdir=/etc/ups
+--with-all
+--with-cgi
+--with-cgipath=/usr/share/nut/cgi-bin
+--with-drvpath=/usr/libexec/nut
+--with-htmlpath=/usr/share/nut/html
+--with-statepath=/var/lib/ups
+--with-systemdshutdowndir=/usr/lib/systemd/system-shutdown
+--with-udev-dir=/usr/lib/udev
+--without-gpio
+--without-powerman
+--without-wrap
+--with-user=_nut
+--with-group=_nut

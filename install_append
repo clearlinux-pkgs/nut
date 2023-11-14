@@ -1,0 +1,2 @@
+# This isn't a UPS driver, but keep it in the nut namespace
+mv %{buildroot}/usr/libexec/sockdebug %{buildroot}/usr/libexec/nut/sockdebug
