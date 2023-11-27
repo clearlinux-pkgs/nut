@@ -9,7 +9,7 @@
 #
 Name     : nut
 Version  : 2.8.1
-Release  : 3
+Release  : 4
 URL      : https://networkupstools.org/source/2.8/nut-2.8.1.tar.gz
 Source0  : https://networkupstools.org/source/2.8/nut-2.8.1.tar.gz
 Source1  : https://networkupstools.org/source/2.8/nut-2.8.1.tar.gz.sig
@@ -95,6 +95,14 @@ Requires: nut = %{version}-%{release}
 dev components for the nut package.
 
 
+%package extras-cgi
+Summary: extras-cgi components for the nut package.
+Group: Default
+
+%description extras-cgi
+extras-cgi components for the nut package.
+
+
 %package lib
 Summary: lib components for the nut package.
 Group: Libraries
@@ -169,7 +177,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1701107686
+export SOURCE_DATE_EPOCH=1701110610
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
@@ -218,7 +226,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1701107686
+export SOURCE_DATE_EPOCH=1701110610
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/nut
 cp %{_builddir}/nut-%{version}/LICENSE-GPL2 %{buildroot}/usr/share/package-licenses/nut/06877624ea5c77efe3b7e39b0f909eda6e25a4ec || :
@@ -255,15 +263,8 @@ mv %{buildroot}/usr/libexec/sockdebug %{buildroot}/usr/libexec/nut/sockdebug
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/nut/cgi-bin/upsimage.cgi
-/usr/share/nut/cgi-bin/upsset.cgi
-/usr/share/nut/cgi-bin/upsstats.cgi
 /usr/share/nut/cmdvartab
 /usr/share/nut/driver.list
-/usr/share/nut/html/bottom.html
-/usr/share/nut/html/header.html
-/usr/share/nut/html/index.html
-/usr/share/nut/html/nut-banner.png
 
 %files dev
 %defattr(-,root,root,-)
@@ -357,6 +358,11 @@ mv %{buildroot}/usr/libexec/sockdebug %{buildroot}/usr/libexec/nut/sockdebug
 /usr/share/man/man3/upscli_strerror.3
 /usr/share/man/man3/upscli_upserror.3
 /usr/share/man/man3/upsclient.3
+
+%files extras-cgi
+%defattr(-,root,root,-)
+/usr/share/nut/cgi-bin/*
+/usr/share/nut/html/*
 
 %files lib
 %defattr(-,root,root,-)
