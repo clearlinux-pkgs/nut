@@ -1,0 +1,144 @@
+Configure miss: abs_val
+Configure miss: abs_val
+Configure miss: aspell "lib" filtering resources directory
+Configure miss: aspell "lib" filtering resources directory
+Configure miss: aspell "share" filtering resources directory
+Configure miss: aspell "share" filtering resources directory
+Configure miss: aspell "tex" filtering resources directory
+Configure miss: aspell "tex" filtering resources directory
+Configure miss: augparse
+Configure miss: augparse
+Configure miss: dblatex
+Configure miss: dblatex
+Configure miss: defined NETSNMP_DRAFT_BLUMENTHAL_AES_04
+Configure miss: defined NETSNMP_DRAFT_BLUMENTHAL_AES_04
+Configure miss: defined usmAES128PrivProtocol
+Configure miss: defined usmAES128PrivProtocol
+Configure miss: defined usmAES192PrivProtocol
+Configure miss: defined usmAES192PrivProtocol
+Configure miss: defined usmAES256PrivProtocol
+Configure miss: defined usmAES256PrivProtocol
+Configure miss: defined usmDESPrivProtocol
+Configure miss: defined usmDESPrivProtocol
+Configure miss: fcvtl
+Configure miss: fcvtl
+Configure miss: g++ option to enable C++11 features
+Configure miss: g++ option to enable C++11 features
+Configure miss: gcc options needed to detect all undeclared functions
+Configure miss: gcc options needed to detect all undeclared functions
+Configure miss: getpassphrase
+Configure miss: getpassphrase
+Configure miss: gmtime_s
+Configure miss: gmtime_s
+Configure miss: gpiod_chip_open_by_name
+Configure miss: gpiod_chip_open_by_name
+Configure miss: if CC compiler family is clang
+Configure miss: if CC compiler family is clang
+Configure miss: if CPP preprocessor family is clang
+Configure miss: if CPP preprocessor family is clang
+Configure miss: if CXX compiler family is clang
+Configure miss: if CXX compiler family is clang
+Configure miss: if gcc -m64 static flag -static works
+Configure miss: if gcc -m64 static flag -static works
+Configure miss: if gcc -m64 supports -fno-rtti -fno-exceptions
+Configure miss: if gcc -m64 supports -fno-rtti -fno-exceptions
+Configure miss: if source-highlight is present (preferable for documentation generation)
+Configure miss: if source-highlight is present (preferable for documentation generation)
+Configure miss: if we can and should install NUT-Monitor desktop application
+Configure miss: if we can and should install NUT-Monitor desktop application
+Configure miss: libpowerman.h
+Configure miss: libpowerman.h
+Configure miss: library containing ipmi_sdr_cache_ctx_destroy
+Configure miss: library containing ipmi_sdr_cache_ctx_destroy
+Configure miss: libregex version via pkg-config
+Configure miss: libregex version via pkg-config
+Configure miss: libusb(-0.1) version via pkg-config
+Configure miss: libusb(-0.1) version via pkg-config
+Configure miss: libusb-config
+Configure miss: libusb-config
+Configure miss: libusb_detach_kernel_driver_np
+Configure miss: libusb_detach_kernel_driver_np
+Configure miss: localtime_s
+Configure miss: localtime_s
+Configure miss: modbus_new_rtu_usb
+Configure miss: modbus_new_rtu_usb
+Configure miss: net-snmp-config-64
+Configure miss: net-snmp-config-64
+Configure miss: pm_connect
+Configure miss: pm_connect
+Configure miss: python-2.7
+Configure miss: python-2.7
+Configure miss: python2
+Configure miss: python2
+Configure miss: python2 interpeter to call
+Configure miss: python2 interpeter to call
+Configure miss: python2.7
+Configure miss: python2.7
+Configure miss: source-highlight
+Configure miss: source-highlight
+Configure miss: strlwr(s)
+Configure miss: strlwr(s)
+Configure miss: sys/modem.h
+Configure miss: sys/modem.h
+Configure miss: usb_detach_kernel_driver_np
+Configure miss: usb_detach_kernel_driver_np
+Configure miss: varargs.h
+Configure miss: varargs.h
+Configure miss: whether C compiler accepts -Qunused-arguments
+Configure miss: whether C compiler accepts -Qunused-arguments
+Configure miss: whether C++ compiler accepts -Qunused-arguments
+Configure miss: whether C++ compiler accepts -Qunused-arguments
+Configure miss: whether pow10 is declared
+Configure miss: whether pow10 is declared
+Configure miss: whether to build GPIO driver
+Configure miss: whether to build GPIO driver
+Configure miss: whether to build Mac OS X meta-driver
+Configure miss: whether to build Mac OS X meta-driver
+Configure miss: whether to build Powerman PDU client driver
+Configure miss: whether to build Powerman PDU client driver
+Configure miss: whether to build SNMP drivers with statically linked lib(net)snmp
+Configure miss: whether to build SNMP drivers with statically linked lib(net)snmp
+Configure miss: whether to build cppunit tests using valgrind support
+Configure miss: whether to build cppunit tests using valgrind support
+Configure miss: whether to enable Augeas configuration-management lenses tests
+Configure miss: whether to enable Augeas configuration-management lenses tests
+Configure miss: whether to enable libwrap (tcp-wrappers) support
+Configure miss: whether to enable libwrap (tcp-wrappers) support
+Configure miss: whether to force nut_version.h generation for every make run
+Configure miss: whether to force nut_version.h generation for every make run
+Configure miss: whether to install Augeas configuration-management lenses
+Configure miss: whether to install Augeas configuration-management lenses
+Configure miss: whether to install FreeBSD devd.conf file
+Configure miss: whether to install FreeBSD devd.conf file
+Configure miss: whether to install NUT-Monitor desktop application
+Configure miss: whether to install NUT-Monitor desktop application
+Configure miss: whether to install Solaris SMF files
+Configure miss: whether to install Solaris SMF files
+Configure miss: whether to install Solaris SVR4 (legacy) init-script files
+Configure miss: whether to install Solaris SVR4 (legacy) init-script files
+Configure miss: whether to install hotplug rules
+Configure miss: whether to install hotplug rules
+Configure miss: whether to make Solaris IPS packages
+Configure miss: whether to make Solaris IPS packages
+Configure miss: whether to make Solaris SVR4 packages
+Configure miss: whether to make Solaris SVR4 packages
+Configure miss: whether to run NIT among default make check target
+Configure miss: whether to run NIT among default make check target
+Configure miss: whether to run cppcheck among default make check target
+Configure miss: whether to run cppcheck among default make check target
+Configure miss: whether to strip debug symbols
+Configure miss: whether to strip debug symbols
+Configure miss: whether to use valgrind for memory-leak testing
+Configure miss: whether to use valgrind for memory-leak testing
+Configure miss: whether uu_lock is declared
+Configure miss: whether uu_lock is declared
+Configure miss: whether we should disable htonl/ntohl built-ins
+Configure miss: whether we should disable htonl/ntohl built-ins
+Configure miss: whether we should disable string built-ins
+Configure miss: whether we should disable string built-ins
+Configure miss: windres
+Configure miss: windres
+Configure miss: ws2tcpip.h
+Configure miss: ws2tcpip.h
+Configure miss: x86_64-generic-linux-gnu-windmc
+Configure miss: x86_64-generic-linux-gnu-windmc
