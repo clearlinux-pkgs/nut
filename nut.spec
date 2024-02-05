@@ -9,7 +9,7 @@
 #
 Name     : nut
 Version  : 2.8.1
-Release  : 6
+Release  : 7
 URL      : https://networkupstools.org/source/2.8/nut-2.8.1.tar.gz
 Source0  : https://networkupstools.org/source/2.8/nut-2.8.1.tar.gz
 Source1  : https://networkupstools.org/source/2.8/nut-2.8.1.tar.gz.sig
@@ -180,7 +180,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1707089381
+export SOURCE_DATE_EPOCH=1707144932
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -262,7 +262,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1707089381
+export SOURCE_DATE_EPOCH=1707144932
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/nut
 cp %{_builddir}/nut-%{version}/LICENSE-GPL2 %{buildroot}/usr/share/package-licenses/nut/06877624ea5c77efe3b7e39b0f909eda6e25a4ec || :
@@ -274,6 +274,7 @@ popd
 ## install_append content
 # This isn't a UPS driver, but keep it in the nut namespace
 mv %{buildroot}/usr/libexec/sockdebug %{buildroot}/usr/libexec/nut/sockdebug
+rm -f %{buildroot}*/usr/libexec/sockdebug
 ## install_append end
 /usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
@@ -494,7 +495,6 @@ mv %{buildroot}/usr/libexec/sockdebug %{buildroot}/usr/libexec/nut/sockdebug
 /V3/usr/libexec/nut/upscode2
 /V3/usr/libexec/nut/usbhid-ups
 /V3/usr/libexec/nut/victronups
-/V3/usr/libexec/sockdebug
 /usr/libexec/nut-driver-enumerator.sh
 /usr/libexec/nut/adelsystem_cbi
 /usr/libexec/nut/al175
