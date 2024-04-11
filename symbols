@@ -337,6 +337,7 @@ libnutclientstub.so.1:_ZN3nut13MemClientStub9getDeviceERKNSt7__cxx1112basic_stri
 libnutclientstub.so.1:nutclient_mem_create_client
 libnutscan.so.2:nut_prepare_search_paths
 libnutscan.so.2:nut_report_config_flags
+libnutscan.so.2:nutscan_add_commented_option_to_device
 libnutscan.so.2:nutscan_add_device_to_device
 libnutscan.so.2:nutscan_add_option_to_device
 libnutscan.so.2:nutscan_cidr_to_ip
@@ -363,6 +364,7 @@ libnutscan.so.2:nutscan_scan_avahi
 libnutscan.so.2:nutscan_scan_eaton_serial
 libnutscan.so.2:nutscan_scan_ipmi
 libnutscan.so.2:nutscan_scan_nut
+libnutscan.so.2:nutscan_scan_nut_simulation
 libnutscan.so.2:nutscan_scan_snmp
 libnutscan.so.2:nutscan_scan_usb
 libnutscan.so.2:nutscan_scan_xml_http_range

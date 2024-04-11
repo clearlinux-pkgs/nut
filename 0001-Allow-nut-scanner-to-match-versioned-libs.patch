@@ -1,6 +1,6 @@
-From caa32dd013c57676867c0f5f328ecf579dbe66db Mon Sep 17 00:00:00 2001
+From 3e497b852549c9199c4aa2eb34e6a989cb5fa2b8 Mon Sep 17 00:00:00 2001
 From: "Brett T. Warden" <brett.t.warden@intel.com>
-Date: Mon, 27 Nov 2023 09:47:00 -0800
+Date: Thu, 11 Apr 2024 16:43:07 -0700
 Subject: [PATCH] Allow nut-scanner to match versioned libs
 
 nut-scanner attempts to detect support libraries, like libusb-1.0,
@@ -18,27 +18,29 @@ libnetsnmp.so.40.2.1
 We only provide the bare .so files in devpkgs, so in most deployed
 environments, nut-scanner will fail.
 
-Instead, we'll allow longer matches that *start* with the desired .so.
+The code will still search for longer matches to *report*, so modify it to just use those.
+
 The code isn't looking for actual libraries to load, it's just trying to
 determine whether they exist. The actual UPS drivers will use dlopen to
 load the correct libraries, so there should be little harm in allowing
 the longer matches.
 ---
- common/common.c | 1 -
- 1 file changed, 1 deletion(-)
+ common/common.c | 2 ++
+ 1 file changed, 2 insertions(+)
 
 diff --git a/common/common.c b/common/common.c
-index 607bc97a5c58..dcc92b92976a 100644
+index fa6772165c32..4bce989cb427 100644
 --- a/common/common.c
 +++ b/common/common.c
-@@ -2279,7 +2279,6 @@ static char * get_libname_in_dir(const char* base_libname, size_t base_libname_l
- 		upsdebugx(5,"Comparing lib %s with dirpath entry %s", base_libname, dirp->d_name);
- 		compres = strncmp(dirp->d_name, base_libname, base_libname_length);
- 		if (compres == 0
--		&&  dirp->d_name[base_libname_length] == '\0' /* avoid "*.dll.a" etc. */
- 		) {
- 			snprintf(current_test_path, LARGEBUF, "%s/%s", dirname, dirp->d_name);
- #if HAVE_DECL_REALPATH
+@@ -2345,6 +2345,8 @@ static char * get_libname_in_dir(const char* base_libname, size_t base_libname_l
+ 				", but saw seemingly related names (are you missing"
+ 				" a symbolic link, perhaps?) e.g.: %s",
+ 				base_libname, dirname, libname_alias);
++			upsdebugx(1, "Clear Linux override -- using %s", libname_alias);
++			libname_path = xstrdup(libname_alias);
+ 		}
+ 
+ 		free(libname_alias);
 -- 
-2.43.0
+2.44.0
 
