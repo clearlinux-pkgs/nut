@@ -14,3 +14,4 @@
 --without-wrap
 --with-user=_nut
 --with-group=_nut
+--without-pynut

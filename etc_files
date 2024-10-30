@@ -1,0 +1,13 @@
+/etc/:
+/etc/ups:
+hosts.conf.sample
+nut.conf.sample
+ups
+ups.conf.sample
+upsd.conf.sample
+upsd.users.sample
+upsmon.conf.sample
+upssched.conf.sample
+upsset.conf.sample
+upsstats-single.html.sample
+upsstats.html.sample

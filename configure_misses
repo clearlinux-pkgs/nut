@@ -1,3 +1,5 @@
+Configure miss: _mkgmtime
+Configure miss: _mkgmtime
 Configure miss: abs_val
 Configure miss: abs_val
 Configure miss: aspell "lib" filtering resources directory
@@ -22,10 +24,6 @@ Configure miss: defined usmDESPrivProtocol
 Configure miss: defined usmDESPrivProtocol
 Configure miss: fcvtl
 Configure miss: fcvtl
-Configure miss: g++ option to enable C++11 features
-Configure miss: g++ option to enable C++11 features
-Configure miss: gcc options needed to detect all undeclared functions
-Configure miss: gcc options needed to detect all undeclared functions
 Configure miss: getpassphrase
 Configure miss: getpassphrase
 Configure miss: gmtime_s
@@ -46,6 +44,8 @@ Configure miss: if source-highlight is present (preferable for documentation gen
 Configure miss: if source-highlight is present (preferable for documentation generation)
 Configure miss: if we can and should install NUT-Monitor desktop application
 Configure miss: if we can and should install NUT-Monitor desktop application
+Configure miss: if we can and should install PyNUT module
+Configure miss: if we can and should install PyNUT module
 Configure miss: libpowerman.h
 Configure miss: libpowerman.h
 Configure miss: library containing ipmi_sdr_cache_ctx_destroy
@@ -110,8 +110,12 @@ Configure miss: whether to install Augeas configuration-management lenses
 Configure miss: whether to install Augeas configuration-management lenses
 Configure miss: whether to install FreeBSD devd.conf file
 Configure miss: whether to install FreeBSD devd.conf file
+Configure miss: whether to install FreeBSD site-local USB quirks file
+Configure miss: whether to install FreeBSD site-local USB quirks file
 Configure miss: whether to install NUT-Monitor desktop application
 Configure miss: whether to install NUT-Monitor desktop application
+Configure miss: whether to install PyNUT binding module
+Configure miss: whether to install PyNUT binding module
 Configure miss: whether to install Solaris SMF files
 Configure miss: whether to install Solaris SMF files
 Configure miss: whether to install Solaris SVR4 (legacy) init-script files
@@ -122,6 +126,8 @@ Configure miss: whether to make Solaris IPS packages
 Configure miss: whether to make Solaris IPS packages
 Configure miss: whether to make Solaris SVR4 packages
 Configure miss: whether to make Solaris SVR4 packages
+Configure miss: whether to make warnings fatal
+Configure miss: whether to make warnings fatal
 Configure miss: whether to run NIT among default make check target
 Configure miss: whether to run NIT among default make check target
 Configure miss: whether to run cppcheck among default make check target
