@@ -9,7 +9,7 @@
 #
 Name     : nut
 Version  : 2.8.2
-Release  : 8
+Release  : 9
 URL      : https://networkupstools.org/source/2.8/nut-2.8.2.tar.gz
 Source0  : https://networkupstools.org/source/2.8/nut-2.8.2.tar.gz
 Source1  : https://networkupstools.org/source/2.8/nut-2.8.2.tar.gz.sig
