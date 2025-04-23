@@ -1,3 +1,7 @@
+Configure miss: BSD KVM process info libs
+Configure miss: BSD KVM process info libs
+Configure miss: Solaris/illumos process info libs
+Configure miss: Solaris/illumos process info libs
 Configure miss: _mkgmtime
 Configure miss: _mkgmtime
 Configure miss: abs_val
@@ -10,6 +14,8 @@ Configure miss: aspell "tex" filtering resources directory
 Configure miss: aspell "tex" filtering resources directory
 Configure miss: augparse
 Configure miss: augparse
+Configure miss: cstdbool
+Configure miss: cstdbool
 Configure miss: dblatex
 Configure miss: dblatex
 Configure miss: defined NETSNMP_DRAFT_BLUMENTHAL_AES_04
@@ -28,8 +34,6 @@ Configure miss: getpassphrase
 Configure miss: getpassphrase
 Configure miss: gmtime_s
 Configure miss: gmtime_s
-Configure miss: gpiod_chip_open_by_name
-Configure miss: gpiod_chip_open_by_name
 Configure miss: if CC compiler family is clang
 Configure miss: if CC compiler family is clang
 Configure miss: if CPP preprocessor family is clang
@@ -46,6 +50,10 @@ Configure miss: if we can and should install NUT-Monitor desktop application
 Configure miss: if we can and should install NUT-Monitor desktop application
 Configure miss: if we can and should install PyNUT module
 Configure miss: if we can and should install PyNUT module
+Configure miss: if we have Python3 prerequisites for NUT-Monitor desktop application
+Configure miss: if we have Python3 prerequisites for NUT-Monitor desktop application
+Configure miss: iphlpapi.h
+Configure miss: iphlpapi.h
 Configure miss: libpowerman.h
 Configure miss: libpowerman.h
 Configure miss: library containing ipmi_sdr_cache_ctx_destroy
@@ -60,6 +68,8 @@ Configure miss: libusb_detach_kernel_driver_np
 Configure miss: libusb_detach_kernel_driver_np
 Configure miss: localtime_s
 Configure miss: localtime_s
+Configure miss: modbus_new_rtu_usb
+Configure miss: modbus_new_rtu_usb
 Configure miss: modbus_new_rtu_usb
 Configure miss: modbus_new_rtu_usb
 Configure miss: net-snmp-config-64
@@ -88,10 +98,26 @@ Configure miss: whether C compiler accepts -Qunused-arguments
 Configure miss: whether C compiler accepts -Qunused-arguments
 Configure miss: whether C++ compiler accepts -Qunused-arguments
 Configure miss: whether C++ compiler accepts -Qunused-arguments
+Configure miss: whether _mkgmtime is declared
+Configure miss: whether _mkgmtime is declared
+Configure miss: whether gmtime_s is declared
+Configure miss: whether gmtime_s is declared
+Configure miss: whether localtime_s is declared
+Configure miss: whether localtime_s is declared
 Configure miss: whether pow10 is declared
 Configure miss: whether pow10 is declared
-Configure miss: whether to build GPIO driver
-Configure miss: whether to build GPIO driver
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether the file is a "GNU ld script" and not a binary
+Configure miss: whether to build GPIO driver (library v2.1.2)
+Configure miss: whether to build GPIO driver (library v2.1.2)
 Configure miss: whether to build Mac OS X meta-driver
 Configure miss: whether to build Mac OS X meta-driver
 Configure miss: whether to build Powerman PDU client driver
@@ -100,6 +126,8 @@ Configure miss: whether to build SNMP drivers with statically linked lib(net)snm
 Configure miss: whether to build SNMP drivers with statically linked lib(net)snmp
 Configure miss: whether to build cppunit tests using valgrind support
 Configure miss: whether to build cppunit tests using valgrind support
+Configure miss: whether to consider basic SMF support
+Configure miss: whether to consider basic SMF support
 Configure miss: whether to enable Augeas configuration-management lenses tests
 Configure miss: whether to enable Augeas configuration-management lenses tests
 Configure miss: whether to enable libwrap (tcp-wrappers) support
@@ -134,6 +162,10 @@ Configure miss: whether to run cppcheck among default make check target
 Configure miss: whether to run cppcheck among default make check target
 Configure miss: whether to strip debug symbols
 Configure miss: whether to strip debug symbols
+Configure miss: whether to suggest a LDFLAGS_NUT_RPATH in pkg-config et al, and which
+Configure miss: whether to suggest a LDFLAGS_NUT_RPATH in pkg-config et al, and which
+Configure miss: whether to suggest a LDFLAGS_NUT_RPATH_CXX in pkg-config et al, and which
+Configure miss: whether to suggest a LDFLAGS_NUT_RPATH_CXX in pkg-config et al, and which
 Configure miss: whether to use valgrind for memory-leak testing
 Configure miss: whether to use valgrind for memory-leak testing
 Configure miss: whether uu_lock is declared
@@ -146,5 +178,7 @@ Configure miss: windres
 Configure miss: windres
 Configure miss: ws2tcpip.h
 Configure miss: ws2tcpip.h
+Configure miss: x86_64-generic-linux-gnu-systemctl
+Configure miss: x86_64-generic-linux-gnu-systemctl
 Configure miss: x86_64-generic-linux-gnu-windmc
 Configure miss: x86_64-generic-linux-gnu-windmc

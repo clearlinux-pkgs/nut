@@ -1,9 +1,10 @@
-2.8.2
+2.8.3
 asciidoc
 aspell-dev
 cppcheck
 libxml2-dev
 libxslt-bin
 openssl-dev
+systemd
 systemd-dev
 valgrind
